@@ -1,0 +1,25 @@
+.header{
+    width: 100vw;
+    height: 55vh;
+    background-color: #114dc5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    margin-top: 10rem
+}
+.links{
+    width: 100%;
+    height: 20%;
+    background-color: pink;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.principal-link{
+    margin-left: 1rem;
+    color: black;
+}
