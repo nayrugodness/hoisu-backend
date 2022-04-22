@@ -1,7 +1,7 @@
 {% extends 'customer/base.html' %}
 
 {% block content %}
-<div class="container mb-5">
+<!--<div class="container mb-5">
     <div class="row justify-content-center mt-5">
         <div class="col-md-8 col-sm-12 offset-md-1 p-4 text-center">
             <h1>Online Food Delivery Service</h1>
@@ -13,5 +13,19 @@
             <a href="{% url 'order' %}" class="btn btn-outline-primary">Order Now!</a>
         </div>
     </div>
+
+</div>-->
+<div class="best-establishments">
+    <div class="second-title">
+        <h3>Cafés y restaurantes destacados</h3>
+    </div>
+
+    <form method="GET" action="{% url 'menu-search' %}">
+        <div class="searcher">
+            <input class="form-control" name="q" type="text" placeholder="Search Our Menu" aria-label="Search" value="{{ request.GET.q }}">
+        </div>
+    </form>
+
+
 </div>
 {% endblock content %}

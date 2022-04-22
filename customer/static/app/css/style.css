@@ -1,19 +1,26 @@
 .header{
     width: 100vw;
-    height: 55vh;
-    background-color: #114dc5;
+    height: 60vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    background-image: url("/static/app/images/backgroundImg.jpg")
 }
+
 .logo{
-    margin-top: 10rem
+    margin-top: 8vh;
+    margin-bottom: 4vh;
+}
+.input-text{
+    border-radius: 1rem;
+    border: transparent;
+    padding: 0.1rem;
+    text-align:center;
 }
 .links{
     width: 100%;
-    height: 20%;
-    background-color: pink;
+    height: 10vh;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -21,5 +28,23 @@
 }
 .principal-link{
     margin-left: 1rem;
-    color: black;
+    font-size: 1.2rem;
+    color: white;
+}
+.second-title{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:center;
+    width:100vw;
+    height: 8rem;
+}
+.searcher{
+    width: 100vw;
+    height: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
 }
